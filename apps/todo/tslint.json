@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nxIonicAngularTodo",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nx-ionic-angular-todo",
+      "kebab-case"
+    ]
+  }
+}
