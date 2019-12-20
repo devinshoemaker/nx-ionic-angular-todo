@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 
 import { HomeRoutingModule } from './home-routing.module';
+import { HomeComponent } from './containers/home/home.component';
 
 @NgModule({
-  declarations: [],
+  declarations: [HomeComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
